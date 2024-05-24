@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, #45e4f2, #DFF7FA);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #947575;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+
+
+nav ul li:hover {
+    background-color: #555;
+}
+
+
+#bienvenido {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+#bienvenido h2 {
+    margin-top: 0;
+}
+
+
+.banner {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 2px solid #8feeee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-images {
+    display: flex;
+    animation: slide 35s infinite;
+}
+  
+.banner-images img {
+    width: 15%;
+    display: block;
+    border-radius: 10px;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+.footer a {
+ color: #fff;
+ text-decoration: none;
+ }
+    
+ .footer a:hover {
+ text-decoration: underline;
+ }
+    
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.imagen {
+    width: 80%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

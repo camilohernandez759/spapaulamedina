@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(150deg, #45e4f2, #DFF7FA);
+    height: 100vh;
+}
+    
+
+.formulario {
+    position: relative;
+    top: 40%;
+    left:35%;
+    transform: translate (-30%, -20%);
+    width: 350px;
+    background:linear-gradient(#e7f0f3,#38f0e7);
+    border-radius: 5%
+    
+
+}
+
+.formulario h2 {
+    text-align: center;
+    padding: 10 0 20px 0;
+    border-bottom: 3px solid #96b1b2;
+
+
+
+}
+.formulario form{
+padding: 2px 5px;
+margin: 10px 0;
+box-sizing: border-box;
+text-align: center;
+}
+form .username{
+padding-left: 10px;
+position: relative;
+border-bottom: 3px solid #96b1b2 ;
+margin: 10px 0;
+}
+form .password{
+    padding-left: 10px;
+    position: relative;
+    border-bottom: 3px solid #96b1b2 ;
+    margin: 10px 0;
+    }
+form .recordar{
+    position: relative;
+    border-bottom: 3px solid #96b1b2 ;
+    margin: 2px 0; 
+    color: #3d1170; 
+}
+.username input {
+    padding: 3px 70px;
+    text-align:left;
+    margin-bottom: 4px;
+    border: 2px solid #3cd7cd;
+    background: #edf4f6;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+.password input {
+    padding: 3px 70px;
+    margin-bottom: 4px;
+    border: 2px solid #3cd7cd;
+    background: #edf4f6;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+.submit {
+    width: 30px;
+    padding:0  3px;
+    height: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+input[type="submit"] {
+    
+    background-color: #f3f7f8; 
+    color: #052c6e;
+    border: none;
+    margin-left: 30px;
+    padding:  10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.3); 
+    transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+    background-color: #20dcf5; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #230673; 
+}
+.reset {
+    width: 30px;
+    padding:0  3px;
+    height: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+input[type="reset"] {
+    
+    background-color: #f3f7f8; 
+    color: #052c6e;
+    border: none;
+    margin-left: 30px;
+    padding:  10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.3); 
+    transition: background-color 0.3s ease-in-out;
+}
+input[type="reset"]:hover {
+    background-color: #20dcf5; 
+}
